@@ -41,66 +41,66 @@
 
 
 
-/* kurupira font */
+/* uname font */
 
 @font-face {
-  font-family: "Josefin Sans";
-  src: local(Josefin Sans Thin), url("../fonts/joesfinsans/JosefinSans-Thin.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Thin.ttf") format("truetype") !important;
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("../fonts/roboto/Roboto-Thin.woff2") format("woff2"), url("../fonts/roboto/Roboto-Thin.woff") format("woff");
+  font-weight: 100;
 }
 
 @font-face {
-  font-family: "Josefin Sans";
-  src: local(Josefin Sans Light), url("../fonts/joesfinsans/JosefinSans-Light.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Light.ttf") format("truetype") !important;
+  font-family: "Roboto";
+  src: local(Roboto Light), url("../fonts/roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/roboto/Roboto-Light.woff") format("woff");
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: "Josefin Sans";
-  src: local(Josefin Sans Regular), url("../fonts/joesfinsans/JosefinSans-Regular.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Regular.ttf") format("truetype") !important;
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("../fonts/roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "Josefin Sans";
-  src: local(Josefin Sans SemiBold), url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-SemiBold.ttf") format("truetype") !important;
+  font-family: "Roboto";
+  src: local(Roboto Medium), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: "Josefin Sans";
-  src: local(Josefin Sans Bold), url("../fonts/joesfinsans/JosefinSans-Bold.ttf");
-  src: url("../fonts/joesfinsans/JosefinSans-Bold.ttf") format("truetype") !important;
+  font-family: "Roboto";
+  src: local(Roboto Bold), url("../fonts/roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/roboto/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
 }
 
-html {
-  font-family: "Josefin Sans", sans-serif; /* definindo fonte no html */
+body {
+  font-family: "Roboto", sans-serif; /* definindo fonte no html */
   font-style: normal;
   font-size: 1rem;
 }
 
 .font-thin {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Roboto", sans-serif !important;
     font-weight: 200;
 }
 
 .font-light {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
 
 .font-regular {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
 
 .font-semibold {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
 }
 
 .font-bold {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
 
