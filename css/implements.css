@@ -189,3 +189,23 @@ code::-moz-selection{
     background: #1a5a40; 
     color: #fff; 
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+a .product-img{
+    height: 10rem;
+    transition: 0.5s;
+}
+
+a .product-img:hover{
+    height: 11rem;
+    transition: 0.5s;
+}
