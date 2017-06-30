@@ -200,12 +200,29 @@ body {
     flex: 1 0 auto;
   }
 
+.parallax-img {
+   width: 10rem
+}
+
+.parallax-container {
+      height: 400px;
+    }
+
 a .product-img{
-    height: 10rem;
+    width: 60%;
     transition: 0.5s;
 }
 
-a .product-img:hover{
-    height: 11rem;
+.product-card{
+    margin: 0.5rem;
+}
+
+.product-card:hover{
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+.product-card:hover a .product-img{
+    width: 63%;
     transition: 0.5s;
 }
