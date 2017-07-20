@@ -232,7 +232,12 @@ blockquote{
     padding-left: 1.5rem;
     border-left: 5px solid #1a5a40;
 }
-
+blockquote.bq-inverso{
+    border-left: 0;
+    border-right: 5px solid #1a5a40;
+    margin: 0;
+    padding-right: 1.5rem;;
+}
 
     /* logo edits */
 
